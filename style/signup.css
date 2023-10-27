@@ -1,0 +1,62 @@
+body{
+  overflow-y: scroll !important;
+}
+.pad{
+  padding: 15px 150px;
+  position: fixed;
+  top: -5px;
+}
+
+
+
+.loginback{
+  background-image: url(/images/flickrimg/stackimg1\ \(1\).jpg);
+  background-size: cover;
+  width: 100%;
+  height: 110vh;
+  padding: 0px, auto;
+}
+
+
+.loginbox{
+  background-color: white;
+  text-align: center;  
+  padding: 10px 50px !important;
+  width: 400px !important;
+  margin-bottom: 70px !important;
+}
+.fs{
+  font-size: 14px !important;
+  border: 1px solid rgba(
+    
+  0, 0, 0, 0.5) !important;
+}
+reds{
+  display: none ;
+}
+@media screen and (max-width: 475px) {
+  body{
+    overflow-y: scroll !important;
+  }
+  .loginback{
+    background-image: none;
+  }
+  .loginbox{
+    display: none;
+  }
+  .loginconatiner{
+    padding: 20px;
+  }
+
+  .reds{
+    margin-top: 50px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: block;
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+  }
+  
+}
